@@ -1,1 +1,43 @@
-WORDS!
+<input type="text" id="new-todo" placeholder="What things do you want to do?" />
+
+<section id="main">
+  <ul id="todo-list">
+    <li class="completed">
+      <input type="checkbox" class="toggle">
+      <label>Start Introduction to Ember</label>
+      <button class="destroy"></button>
+    </li>
+    <li class="completed">
+      <input type="checkbox" class="toggle">
+      <label>Take Badass Notes</label>
+      <button class="destroy"></button>
+    </li>
+    <li class="completed">
+      <input type="checkbox" class="toggle">
+      <label>Distil Knowledge</label>
+      <button class="destroy"></button>
+    </li>
+  </ul>
+
+  <input type="checkbox" id="toggle-all"
+</section>
+<footer id="footer">
+  <span id="todo-count">
+    <strong>2</strong> todos left
+  </span>
+  <ul id="filters">
+    <li>
+      <a href="all" class="selected">All</a>
+    </li>
+    <li>
+      <a href="active">Active</a>
+    </li>
+    <li>
+      <a href="completed">Completed</a>
+    </li>
+  </ul>
+
+  <button id="clear-completed">
+    Clear completed (1)
+  </button>
+</footer>
